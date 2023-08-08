@@ -30,6 +30,7 @@ async function getJoke() {
     btnEl.innerText = "Tell me a joke";
     console.log(error);
   }
+  
 }
 
 btnEl.addEventListener("click", getJoke);
